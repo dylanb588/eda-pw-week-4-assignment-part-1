@@ -27,7 +27,7 @@ function addNumbers(firstNumber, secondNumber) {
   // return firstNumber + secondNumber;
   return answer
 }
-
+console.log(addNumbers( 5, 37 ));
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree() {
