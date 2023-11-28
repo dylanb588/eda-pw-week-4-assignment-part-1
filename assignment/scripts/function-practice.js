@@ -22,8 +22,10 @@ function helloName(name) {
 let name = 'Dylan';
 console.log(helloName(name));
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+function addNumbers(firstNumber, secondNumber) {
+  let answer = firstNumber + secondNumber;
   // return firstNumber + secondNumber;
+  return answer
 }
 
 
