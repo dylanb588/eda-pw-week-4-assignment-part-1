@@ -19,7 +19,8 @@ function helloName(name) {
   return greeting;
 }
 // Remember to call the function to test
-
+let name = 'Dylan';
+console.log(helloName(name));
 // 3. Function to add two numbers together & return the result
 function addNumbers(firstNumber) {
   // return firstNumber + secondNumber;
