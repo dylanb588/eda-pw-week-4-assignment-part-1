@@ -25,13 +25,14 @@ console.log(helloName(name));
 function addNumbers(firstNumber, secondNumber) {
   let answer = firstNumber + secondNumber;
   // return firstNumber + secondNumber;
-  return answer
+  return answer;
 }
 console.log(addNumbers( 5, 37 ));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree() {
-
+function multiplyThree(num1, num2, num3) {
+  let answer = num1 * num2 * num3;
+  return answer;
 }
 
 
