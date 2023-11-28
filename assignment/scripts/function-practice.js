@@ -34,7 +34,7 @@ function multiplyThree(num1, num2, num3) {
   let answer = num1 * num2 * num3;
   return answer;
 }
-
+console.log(multiplyThree( 5, 2, 3 ));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
