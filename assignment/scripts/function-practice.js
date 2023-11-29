@@ -40,9 +40,9 @@ console.log(multiplyThree( 5, 2, 3 ));
 //    or greater than zero, and false otherwise
 function isPositive(number) {
   if (number > 0) {
-    return;
+    return true;
   }
-  return;
+  return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
