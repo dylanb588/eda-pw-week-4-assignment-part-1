@@ -51,7 +51,11 @@ console.log('-3 is positive: ', isPositive(-3));
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
 function getLast(array) {
-
+  if (array.length === 0) {
+    return 'undefined';
+  } else {
+    return array[array.length - 1];
+  }
 }
 
 // 7. Function to find a value in an array. Return true if the 
