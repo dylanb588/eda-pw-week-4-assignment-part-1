@@ -27,14 +27,14 @@ function addNumbers(firstNumber, secondNumber) {
   // return firstNumber + secondNumber;
   return answer;
 }
-console.log(addNumbers( 5, 37 ));
+console.log('5 + 37 is: ', addNumbers( 5, 37 ));
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree(num1, num2, num3) {
   let answer = num1 * num2 * num3;
   return answer;
 }
-console.log(multiplyThree( 5, 2, 3 ));
+console.log('5 * 2 * 3 is: ', multiplyThree( 5, 2, 3 ));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
@@ -57,6 +57,11 @@ function getLast(array) {
     return array[array.length - 1];
   }
 }
+let array1=[];
+let array2=['Dog', 'Cat', 'Rabbit', 'Cow'];
+console.log('Array 1 is: ', getLast(array1));
+console.log(array2);
+console.log('Array 2 last item is: ', getLast(array2));
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
