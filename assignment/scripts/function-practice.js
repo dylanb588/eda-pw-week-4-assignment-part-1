@@ -74,6 +74,10 @@ function find(value, array) {
   }
   return false;
 }
+let array3=[5, 6, 7, 8, 9]
+console.log('Array 3 has a 5: ', find(5, array3));
+console.log('Array 3 has a 1: ', find(1, array3));
+console.log('Array 2 has a bird: ', find('Bird', array2));
 
 // ----------------------
 // Stretch Goals
