@@ -85,9 +85,12 @@ console.log('Array 2 has a bird: ', find('Bird', array2));
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
-
+  letter= letter.toLowerCase();
+  string= string.toLowerCase();
+  return string.charAt(0) === letter;
 }
-
+console.log('A the first letter in Angel', isFirstLetter('A', 'Angel'));
+console.log('u is the first letter in bunny', isFirstLetter('u', 'Bunny'));
 
 // 9. Function to return the sum of all numbers in an array
 function sumAll(array) {
